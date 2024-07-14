@@ -28,8 +28,8 @@ const Layout = ({ children }) => {
           }}
         >
           <nav
-          className={`flex items-center shadow-lg justify-between`}>
-            <div className="flex items-center gap-4 px-2">
+          className={`bg-white flex items-center shadow-lg justify-between sticky top-0 left-0`}>
+            <div className="flex items-center gap-4 px-2 ">
               <button
                 onClick={handleAsideOpen}
                 className="hover:bg-blue-300 px-2 py-1 rounded-full ease-in-out duration-50"
@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
               </button>
             </div>
           </nav>
-          <div>{children}</div>
+          <div className="p-4">{children}</div>
         </section>
       
     </div>
