@@ -28,7 +28,7 @@ const Orders = () => {
             {orders.map((items, index) => (
               <tr className="text-center" key={index} style={
                 {
-                  background: (index+1)%2 === 0 ? 'gray' : 'white'
+                  background: (index+1)%2 === 0 ? '#cecccc' : 'white'
                 }
               }>
                 <td className="py-4">{items.Id}</td>
